@@ -13,6 +13,7 @@ function solution(s) {
   return parseInt(answer);
 }
 
+
 // split join 이용하는 깔끔한 방법
 function solution(s) {
   let answer = s;
