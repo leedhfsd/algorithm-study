@@ -12,3 +12,13 @@ function solution(s) {
   
   return parseInt(answer);
 }
+
+// split join 이용하는 깔끔한 방법
+function solution(s) {
+  let answer = s;
+  let arr = ["zero","one","two","three","four","five","six","seven","eight","nine"];
+  for (let i = 0 ; i < arr.length; i++) {
+      answer = answer.split(arr[i]).join(i)
+  }
+  return Number(answer);
+}
