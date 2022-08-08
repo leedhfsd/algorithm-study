@@ -1,7 +1,6 @@
 import sys
 from collections import defaultdict
 input = sys.stdin.readline
-
 tc = int(input())
 
 def dfs(start):
